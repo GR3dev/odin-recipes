@@ -1,0 +1,67 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.logo-box h1 {
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px 10px 5px 10px;
+    font-size: 3rem;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    color: orange;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+}
+
+img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+.recipe-list a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: orange;
+    font-family: 'Bebas Neue';
+}
+
+.recipe-list a:hover {
+    color: black;
+}
+
+.recipe-list li {
+    list-style: none;
+}
+
+.img-container{
+    float: left;
+    border: 1px solid orange;
+    margin: 0px 40px 20px 20px;
+    padding: 0px;
+}
+ol li {
+    margin: 10px 0px;
+}
